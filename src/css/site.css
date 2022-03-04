@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%; 
+    font-size: 14px; 
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+html {
+    height: 100% !important;
+    width: 100% !important;
+    -ms-text-size-adjust: 100% !important;
+    -webkit-text-size-adjust: 100% !important;
+    min-width: 800px;
+}
+
+body{
+    background-image: url("../assets/Mariperez.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:auto;
+    margin: 0;
+    padding: 0;
+    height: 100% !important;
+    width: 100% !important;
+    min-width: 800px;
+    overflow-x: hidden; 
+}
+
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.horizontalText {
+    display: inline-block;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.force-right {
+    float: right !important;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.logo{
+    margin: 0 10px;
+}
+
+.pagetitle {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.content-principal {
+    width: 80%; 
+    margin: 10px auto; 
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-wrap-right {
+    float: left;
+    margin-right: 10px;
+}
+
+.text-wrap-left {
+    float: right;
+    margin-left: 10px;
+}
+
+.InfoUser {
+    font-size: .85rem;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border: solid 2px #000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.card-body {
+    width: 100% !important;
+    overflow: auto;
+}
+.showServiceMap {
+    height: 854px;
+    width: 1290px;
+    background-image: url("../assets/MapaHG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lineMap {
+    height: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.lineMap a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container {
+    width: 100% !important;
+}
+
+
+.bradius5 {
+    border-radius: 5px;
+}
+.bradius10 {
+    border-radius: 10px;
+}
+.bradius15 {
+    border-radius: 15px;
+}
+.bradius20 {
+    border-radius: 20px;
+}
